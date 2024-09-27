@@ -74,9 +74,9 @@ bash run_ripples.sh # takes around 3 to 4 hours to finish
 ## Expected Results
 After experiments finish, new directories will be created: 
 - `strong-scaling-logs-ic-eimm`: Efficient IMM, IC model
-- `strong-scaling-logs_lt-eimm`: Efficient IMM, LT model
-- `strong-scaling-logs_ic-ripples`: Ripples, IC model
-- `strong-scaling-logs_lt-ripples`: Ripples, LT model
+- `strong-scaling-logs-lt-eimm`: Efficient IMM, LT model
+- `strong-scaling-logs-ic-ripples`: Ripples, IC model
+- `strong-scaling-logs-lt-ripples`: Ripples, LT model
 
 Each JSON file in the directory will contain the raw experiment results. To summarize and compare results, run the following command to print a human readable speedup summary table to stdout. This will also generate a summary performance breakdown and the best performance comparison in the `results` directory in the project root, similar to `Table III` of the paper.
 
